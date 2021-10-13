@@ -1,0 +1,14 @@
+/*  ----------->300 */
+
+@font-face {
+    font-family: 'MuseoSansCyrl-300';
+    src: url(../fonts/MuseoSansCyrl-300.ttf);
+}
+
+
+/*  ----------->700 */
+
+@font-face {
+    font-family: 'MuseoSansCyrl-700';
+    src: url(../fonts/MuseoSansCyrl-700.ttf);
+}
