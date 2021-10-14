@@ -61,6 +61,22 @@ a {
     box-shadow: 0px 9px 48px rgba(211, 61, 52, 0.24);
 }
 
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cards .card {
+    width: 368px;
+    height: 694px;
+    background: #FFFFFF;
+    box-shadow: 0px 9px 49px rgba(142, 136, 136, 0.16);
+    border-radius: 10px;
+    color: #0F0F10;
+}
+
 
 /* header-top */
 
@@ -196,22 +212,6 @@ a {
 
 /* products */
 
-.products .cards {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.products .cards .card {
-    width: 368px;
-    height: 694px;
-    background: #FFFFFF;
-    box-shadow: 0px 9px 49px rgba(142, 136, 136, 0.16);
-    border-radius: 10px;
-    color: #0F0F10;
-}
-
 .products .cards .card .card-img {
     width: 368px;
     height: 277px;
@@ -283,7 +283,6 @@ a {
 }
 
 .advantages .advantages-cards {
-    width: 1165px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -306,4 +305,97 @@ a {
 
 .advantages .advantages-cards .item-right .mini-title {
     margin-top: 10px;
+}
+
+
+/* map */
+
+.map .map-responsive {
+    width: 100%;
+    border: none;
+    filter: drop-shadow(0px 5px 48px rgba(49, 47, 47, 0.1));
+    cursor: pointer;
+}
+
+.map .map-responsive .map-cards {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.map .map-responsive .map-cards a.map-card {
+    color: #eee;
+    font-size: 12px;
+    position: absolute;
+    top: 0px;
+    border: none;
+}
+
+.map .map-responsive .map-cards a.map-card2 {
+    color: #eee;
+    font-size: 12px;
+    position: absolute;
+    top: 14px;
+}
+
+.map .map-responsive .map-cards iframe.map-card3 {
+    position: relative;
+    width: 100%;
+    height: 785px;
+}
+
+
+/* about-us */
+
+.about-us {
+    padding: 0 0 91px;
+}
+
+.about-us .cards .card {
+    height: 478px;
+    background: none;
+    box-shadow: none;
+    color: #0F0F10;
+}
+
+.about-us .cards .card .img-block img {
+    margin-left: -50px;
+    overflow: hidden;
+}
+
+.about-us .card .title {
+    font-size: 20px;
+    line-height: 19px;
+    font-family: 'MuseoSansCyrl-700';
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us .card .card-subtitle {
+    margin-top: 12px;
+    font-size: 15px;
+    line-height: 18px;
+    font-family: 'MuseoSansCyrl-300';
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* footer */
+
+.footer {
+    background: #797C7D;
+}
+
+.footer .header-top,
+.footer .header-bottom {
+    background: none;
+}
+
+.footer .header-top .inko2021 {
+    color: #fff;
 }
